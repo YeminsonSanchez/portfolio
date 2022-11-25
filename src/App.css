@@ -1,0 +1,9 @@
+#Layout {
+  display: flex;
+  flex-direction: column;
+  background-color: #222831;
+  text-align: center;
+  color: #EEEEEE;
+  height: 100%;
+  gap: 3rem;
+}
