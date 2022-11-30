@@ -8,8 +8,11 @@ export const Main = () => {
         <section id={styles.hero}>
           <div className={styles.description}>
             <div className={styles.descriptionBody}>
-              <div>
-                Open to work: <span>Frontend Developer</span>
+              <div className={styles.recruiter}>
+                Querido reclutador, open to work: <span>Frontend Developer</span>
+                <span>
+                  <div className={styles.openWork}></div>
+                </span>
               </div>
               <div>
                 Hola, un gusto verte por aca, me presento:{' '}
@@ -23,11 +26,42 @@ export const Main = () => {
           </div>
         </section>
 
-        <h2>Poyectos</h2>
+        <h2>Proyectos</h2>
 
         <section id={styles.projects}>
           <div className={styles.projects}>
             <Card />
+          </div>
+        </section>
+
+        <h2>Contacto</h2>
+
+        <section id={styles.contact}>
+          <div className={styles.contact}>
+            <form action=''>
+              <div className={styles.formGroup}>
+                <label htmlFor='name'>Nombre</label>
+                <input type='text' name='name' id='name' />
+              </div>
+              <div className={styles.formGroup}>
+                <label htmlFor='email'>Email</label>
+                <input type='email' name='email' id='email' />
+              </div>
+              <div className={styles.formGroup}>
+                <label htmlFor='message'>Mensaje</label>
+                <textarea
+                  name='message'
+                  id='message'
+                  cols='30'
+                  rows='10'
+                ></textarea>
+              </div>
+              <div className={`${styles.formGroup}`}>
+                <button type='submit'>
+                  <i className='fa-solid fa-paper-plane'></i>
+                </button>
+              </div>
+            </form>
           </div>
         </section>
       </div>

@@ -5,11 +5,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 10px;
   border: solid 1px #3b3b3b;
   box-shadow: 0 0 10px #00adb5;
   border-radius: 7px;
-  max-height: 400px;
+  max-height: 450px;
 }
 
 @keyframes gradient {
@@ -26,22 +26,23 @@
 
 .cardBody {
   background: linear-gradient(
-    140deg,
+    145deg,
     #ee7652c7,
     #e73c7ec4,
     #23a5d5c9,
     #23d5abcb
   );
+
   background-size: 400% 400%;
   width: 100%;
-  height: 400px;
+  height: 450px;
   animation: gradient 25s ease infinite;
   border-radius: 7px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 10px;
   padding: 1rem;
 }
 
@@ -49,9 +50,10 @@
   border-radius: 5px;
   align-items: center;
   justify-content: center;
-  max-width: 400px;
+  min-width: 200px;
 }
 .card img {
+  width: 90%;
   border-radius: 5px;
   object-fit: cover;
   overflow: hidden;
@@ -72,6 +74,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  padding-bottom: 5px;
 }
 .buttonCard button {
   min-width: 100px;
