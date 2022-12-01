@@ -58,6 +58,42 @@ li:hover {
   justify-content: center;
   align-items: center;
 }
+.icon {
+  cursor: pointer;
+  font-style: italic;
+}
+
+.icon span {
+  background: linear-gradient(90deg, #00baf0, #1002ca, #7b0ea7, #00baf0);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  font-style: italic;
+  height: 3px;
+  width: 100%;
+  margin-bottom: 5px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon span::after{
+  content: " </>";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 #menu_toggle {
   display: none;
@@ -142,3 +178,4 @@ li:hover {
 header {
   padding-bottom: 2rem;
 }
+

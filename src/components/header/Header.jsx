@@ -1,10 +1,11 @@
 import styles from './header.module.css'
 
 export const Header = () => {
+
   return (
     <header>
       <section className={styles.top_nav}>
-        <div>YemDev</div>
+        <div className={styles.icon}> Yem <span>Dev</span></div>
         <input id={styles.menu_toggle} type='checkbox' />
         <label
           className={styles.menu_button_container}

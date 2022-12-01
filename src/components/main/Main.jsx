@@ -9,21 +9,29 @@ export const Main = () => {
           <div className={styles.description}>
             <div className={styles.descriptionBody}>
               <div className={styles.recruiter}>
-                Querido reclutador, open to work: <span>Frontend Developer</span>
+                Querido reclutador, open to work: Frontend Developer
                 <span>
                   <div className={styles.openWork}></div>
                 </span>
               </div>
-              <div>
+              <div className={styles.descriptionName}>
                 Hola, un gusto verte por aca, me presento:{' '}
-                <strong>Yeminson Sanchez</strong>, Desarrollador Web Frontend
-                con 1 año de experiencia.
+                <span> Yeminson Sanchez </span>, Desarrollador Web Frontend Junior.
               </div>
             </div>
           </div>
           <div className={styles.imgProfile}>
-            <img src='./../public/pexels-photo-7915524.webp' alt='' />
+            <img
+              src='https://res.cloudinary.com/daxltixrz/image/upload/v1669861772/IMG_20220810_091440_373_usndid.jpg'
+              alt=''
+            />
           </div>
+        </section>
+
+        <h2>Tecnologias</h2>
+
+        <section id={styles.tecnologies}>
+          <div className={styles.tecnologies}></div>
         </section>
 
         <h2>Proyectos</h2>

@@ -3,7 +3,8 @@ const data = [
     id: 1,
     title: 'Easy Peasy App',
     description: 'Plataforma de cursos para estudio de area TI',
-    image: 'public/WhatsApp Image 2022-11-29 at 8.38.43 PM (3).jpeg',
+    image:
+      'https://res.cloudinary.com/daxltixrz/image/upload/v1669861269/WhatsApp_Image_2022-11-29_at_8.38.43_PM_3_zgptqd.jpg',
     link: 'https://easy-peasy-app.netlify.app/',
     tecnologies: [
       'React',
@@ -20,7 +21,8 @@ const data = [
     id: 2,
     title: 'Heroes App',
     description: 'Busca a tu heroe favorito de marvel o dc',
-    image: 'public/WhatsApp Image 2022-11-29 at 8.38.43 PM (2).jpeg',
+    image:
+      'https://res.cloudinary.com/daxltixrz/image/upload/v1669861269/WhatsApp_Image_2022-11-29_at_8.38.43_PM_2_y9f0p1.jpg',
     link: '',
     tecnologies: ['React', 'CSS', 'QueryString', 'NodeJS'],
     github: 'https://github.com/YeminsonSanchez/HeroesApp',
@@ -38,7 +40,8 @@ const data = [
     id: 4,
     title: 'Gifts App',
     description: 'Busca tus gifs favoritos',
-    image: 'public/WhatsApp Image 2022-11-29 at 8.38.43 PM (4).jpeg',
+    image:
+      'https://res.cloudinary.com/daxltixrz/image/upload/v1669861269/WhatsApp_Image_2022-11-29_at_8.38.43_PM_4_nj2ycy.jpg',
     link: '',
     tecnologies: ['React', 'JWT', 'CSS', 'Jest', 'NodeJS'],
     github: 'https://github.com/YeminsonSanchez/buscador-gifs-app',
@@ -47,7 +50,8 @@ const data = [
     id: 5,
     title: 'Todo App',
     description: 'Aplicacion para guardar tareas',
-    image: 'public/WhatsApp Image 2022-11-29 at 8.38.43 PM (6).jpeg',
+    image:
+      'https://res.cloudinary.com/daxltixrz/image/upload/v1669861268/WhatsApp_Image_2022-11-29_at_8.38.43_PM_6_pww1cj.jpg',
     link: '',
     tecnologies: ['React', 'Firebase', 'MaterialUI', 'CSS', 'NodeJS'],
     github: 'https://github.com/YeminsonSanchez/journalApp',
@@ -76,7 +80,8 @@ const data = [
     id: 8,
     title: 'GitHub Profile',
     description: 'Busca un perfil de github y mira sus repositorios',
-    image: 'public/WhatsApp Image 2022-11-29 at 8.38.43 PM (5).jpeg',
+    image:
+      'https://res.cloudinary.com/daxltixrz/image/upload/v1669861269/WhatsApp_Image_2022-11-29_at_8.38.43_PM_5_d75qyy.jpg',
     link: 'https://yeminsonsanchez.github.io/Obtener_informaci-n_y_repositorios_Github_de_usuarios/',
     tecnologies: ['JavaScript', 'CSS', 'HTML'],
     github:
@@ -102,7 +107,8 @@ const data = [
     id: 10,
     title: 'Suricata App',
     description: 'Frontend de aplicacion para compras de alimentos',
-    image: 'public/WhatsApp Image 2022-11-29 at 8.38.44 PM.jpeg',
+    image:
+      'https://res.cloudinary.com/daxltixrz/image/upload/v1669861269/WhatsApp_Image_2022-11-29_at_8.38.44_PM_ldkqhd.jpg',
     link: 'https://yeminsonsanchez.github.io/Suricata/',
     tecnologies: ['JavaScript', 'CSS', 'HTML', 'Bootstrap'],
     github: 'https://github.com/YeminsonSanchez/Suricata',
@@ -120,7 +126,8 @@ const data = [
     id: 12,
     title: 'Meet And Cofee',
     description: 'Web de blog de cafe',
-    image: 'public/WhatsApp Image 2022-11-29 at 8.38.44 PM (2).jpeg',
+    image:
+      'https://res.cloudinary.com/daxltixrz/image/upload/v1669861269/WhatsApp_Image_2022-11-29_at_8.38.44_PM_2_mzrmj4.jpg',
     link: 'https://yeminsonsanchez.github.io/Meet_-_Coffee/',
     tecnologies: ['JavaScript', 'CSS', 'HTML', 'Bootstrap'],
     github: 'https://github.com/YeminsonSanchez/Meet_-_Coffee',
@@ -129,7 +136,8 @@ const data = [
     id: 14,
     title: 'Viajes Chile',
     description: 'Web de blog de viajes',
-    image: 'public/WhatsApp Image 2022-11-29 at 8.38.44 PM (3).jpeg',
+    image:
+      'https://res.cloudinary.com/daxltixrz/image/upload/v1669861270/WhatsApp_Image_2022-11-29_at_8.38.44_PM_3_yuildj.jpg',
     link: 'https://yeminsonsanchez.github.io/viajesChile/',
     tecnologies: ['JavaScript', 'CSS', 'HTML', 'Bootstrap'],
     github: 'https://github.com/YeminsonSanchez/viajesChile',
@@ -138,7 +146,8 @@ const data = [
     id: 15,
     title: 'Ricomida',
     description: 'Web blog sobre platos de comida',
-    image: 'public/WhatsApp Image 2022-11-29 at 8.38.42 PM.jpeg',
+    image:
+      'https://res.cloudinary.com/daxltixrz/image/upload/v1669861269/WhatsApp_Image_2022-11-29_at_8.38.42_PM_mrbods.jpg',
     link: 'https://yeminsonsanchez.github.io/Ricomida/',
     tecnologies: ['JavaScript', 'CSS', 'HTML', 'Bootstrap'],
     github: 'https://github.com/YeminsonSanchez/Ricomida',
