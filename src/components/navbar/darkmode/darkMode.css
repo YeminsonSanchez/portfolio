@@ -1,0 +1,84 @@
+.dark {
+	background-color: #1e293b;
+	color: var(--colorFontWhite);
+	animation: theme 2s;
+}
+
+.dark nav {
+	background-color: #1e293b00;
+	backdrop-filter: blur(5px);
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+.dark .navbar_container_menu.isActive {
+	background-color: #1e293bf6;
+}
+
+.white {
+	color: var(--colorFontBlack);
+	background-color: #bdecff;
+	background-image: radial-gradient(
+			at 40% 20%,
+			hsl(252deg 100% 97%) 0px,
+			transparent 50%
+		),
+		radial-gradient(at 80% 0%, hsl(180deg 100% 98%) 0px, transparent 50%),
+		radial-gradient(at 0% 50%, hsl(280deg 100% 98%) 0px, transparent 50%),
+		radial-gradient(at 14% 75%, hsl(50deg 100% 97%) 0px, transparent 50%),
+		radial-gradient(at 0% 100%, hsl(47deg 100% 98%) 0px, transparent 50%),
+		radial-gradient(at 84% 84%, rgb(252 248 255) 0px, transparent 50%),
+		radial-gradient(at 0% 0%, hsl(241deg 100% 98%) 0px, transparent 50%);
+}
+
+.white nav {
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(3px);
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+.white .navbar_container_menu.isActive {
+	background-color: #bdecffac;
+	background-image: radial-gradient(
+			at 40% 20%,
+			hsl(252deg 100% 97%) 0px,
+			transparent 50%
+		),
+		radial-gradient(at 80% 0%, hsl(180deg 100% 98%) 0px, transparent 50%),
+		radial-gradient(at 0% 50%, hsl(280deg 100% 98%) 0px, transparent 50%),
+		radial-gradient(at 14% 75%, hsl(50deg 100% 97%) 0px, transparent 50%),
+		radial-gradient(at 0% 100%, hsl(47deg 100% 98%) 0px, transparent 50%),
+		radial-gradient(at 84% 84%, rgb(252 248 255) 0px, transparent 50%),
+		radial-gradient(at 0% 0%, hsl(241deg 100% 98%) 0px, transparent 50%);
+}
+
+.logo_dark_mode {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+@keyframes theme {
+	from {
+		background-color: #bdecff;
+		background-image: radial-gradient(
+				at 40% 20%,
+				hsl(252deg 100% 97%) 0px,
+				transparent 50%
+			),
+			radial-gradient(at 80% 0%, hsl(180deg 100% 98%) 0px, transparent 50%),
+			radial-gradient(at 0% 50%, hsl(280deg 100% 98%) 0px, transparent 50%),
+			radial-gradient(at 14% 75%, hsl(50deg 100% 97%) 0px, transparent 50%),
+			radial-gradient(at 0% 100%, hsl(47deg 100% 98%) 0px, transparent 50%),
+			radial-gradient(at 84% 84%, rgb(252 248 255) 0px, transparent 50%),
+			radial-gradient(at 0% 0%, hsl(241deg 100% 98%) 0px, transparent 50%);
+		color: var(--colorFontBlack);
+	}
+	to {
+		color: var(--colorFontWhite);
+		background-color: #1e293b;
+		background-image: none;
+	}
+}
