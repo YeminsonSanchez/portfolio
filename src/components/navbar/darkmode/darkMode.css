@@ -1,7 +1,7 @@
 .dark {
 	background-color: #1e293b;
 	color: var(--colorFontWhite);
-	animation: theme 2s;
+	animation: themeBlack 2s;
 }
 
 .dark nav {
@@ -30,6 +30,8 @@
 		radial-gradient(at 0% 100%, hsl(47deg 100% 98%) 0px, transparent 50%),
 		radial-gradient(at 84% 84%, rgb(252 248 255) 0px, transparent 50%),
 		radial-gradient(at 0% 0%, hsl(241deg 100% 98%) 0px, transparent 50%);
+
+	animation: themeWhite 2s;
 }
 
 .white nav {
@@ -60,7 +62,7 @@
 	height: 1.5em;
 }
 
-@keyframes theme {
+@keyframes themeBlack {
 	from {
 		background-color: #bdecff;
 		background-image: radial-gradient(
@@ -80,5 +82,28 @@
 		color: var(--colorFontWhite);
 		background-color: #1e293b;
 		background-image: none;
+	}
+}
+
+@keyframes themeWhite {
+	from {
+		color: var(--colorFontWhite);
+		background-color: #1e293b;
+		background-image: none;
+	}
+	to {
+		background-color: #bdecff;
+		background-image: radial-gradient(
+				at 40% 20%,
+				hsl(252deg 100% 97%) 0px,
+				transparent 50%
+			),
+			radial-gradient(at 80% 0%, hsl(180deg 100% 98%) 0px, transparent 50%),
+			radial-gradient(at 0% 50%, hsl(280deg 100% 98%) 0px, transparent 50%),
+			radial-gradient(at 14% 75%, hsl(50deg 100% 97%) 0px, transparent 50%),
+			radial-gradient(at 0% 100%, hsl(47deg 100% 98%) 0px, transparent 50%),
+			radial-gradient(at 84% 84%, rgb(252 248 255) 0px, transparent 50%),
+			radial-gradient(at 0% 0%, hsl(241deg 100% 98%) 0px, transparent 50%);
+		color: var(--colorFontBlack);
 	}
 }

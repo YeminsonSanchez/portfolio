@@ -1,0 +1,70 @@
+main {
+	padding-top: 2rem;
+}
+
+main {
+	display: flex;
+	width: 80%;
+	height: 100vh;
+	flex-direction: column;
+	font-family: var(--tipo-principal);
+	font-weight: 400;
+	justify-content: center;
+	align-items: start;
+	margin: 0 auto;
+}
+
+.main_span {
+	color: #0ea5e9;
+	font-size: 0.7em;
+}
+.main_h1 {
+	font-weight: 900;
+	font-size: 4em;
+	height: auto;
+	line-height: 1em;
+}
+
+.main_h1 span {
+	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
+	font-family: var(--tipo-principal);
+	background-size: 300% 400%;
+	animation: gradient 10s ease infinite;
+	font-weight: 900;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.main_ubication {
+	display: flex;
+	padding: 1em;
+	gap: 0.5em;
+	justify-content: center;
+	align-items: center;
+}
+.main_ubication_menu {
+	color: #f63b3b;
+}
+.main_description {
+	font-size: 0.8em;
+	width: 90%;
+  font-style: italic;
+}
+.main_buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	padding-top: 2rem;
+	padding-left: 2rem;
+}
+.main_button_job {
+	background-color: #06b6d4;
+	padding: 0.3rem 0.8rem;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.main_button_cv {
+	border: solid 1px #06b6d4;
+	padding: 0.3rem 3rem;
+	border-radius: 25px;
+	cursor: pointer;
+}

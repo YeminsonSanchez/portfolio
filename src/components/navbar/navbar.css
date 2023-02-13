@@ -5,11 +5,6 @@ nav {
 	align-items: center;
 	height: 2rem;
 	font-size: 1em;
-	/* position: fixed;
-	z-index: 100; */
-}
-.divv {
-	padding-top: 3rem;
 }
 
 .navbar_container_menu {
@@ -24,15 +19,7 @@ nav {
 	flex-direction: column;
 	align-items: center;
 }
-li:hover {
-	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
-	font-family: var(--tipo-principal);
-	background-size: 400% 400%;
-	animation: gradient 1s alternate-reverse infinite;
-	font-weight: 900;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
+
 .navbar_logo {
 	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
 	font-family: var(--tipo-principal);
@@ -51,6 +38,20 @@ li:hover {
 	width: 20px;
 	height: auto;
 	cursor: pointer;
+}
+li {
+	font-family: var(--tipo-principal);
+	font-weight: 400;
+}
+
+li:hover {
+	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
+	font-family: var(--tipo-principal);
+	background-size: 400% 400%;
+	animation: gradient 1s alternate-reverse infinite;
+	font-weight: 900;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .navbar_menu_hamburger_1 {
