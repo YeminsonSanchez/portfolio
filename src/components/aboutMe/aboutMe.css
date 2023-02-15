@@ -1,0 +1,10 @@
+.container_main_description {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 3rem 0;
+}
+.container_description {
+	display: flex;
+	flex-direction: column;
+}
