@@ -1,3 +1,5 @@
 .container_svg {
-	height: 200px;
+	width: 100%;
+	overflow: hidden;
+	height: auto;
 }

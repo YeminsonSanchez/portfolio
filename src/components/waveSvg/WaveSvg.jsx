@@ -8,7 +8,7 @@ export const WaveSvg = () => {
 				xmlnsXlink='http://www.w3.org/1999/xlink'
 				// style='margin:auto;background:#f1f2f3;display:block;z-index:1;position:relative'
 				width='3000'
-				height='129'
+				height='429'
 				preserveAspectRatio='xMidYMid'
 				viewBox='0 0 3000 129'>
 				<g transform='translate(1500,64.5) scale(1,-1) translate(-1500,-64.5)'>
