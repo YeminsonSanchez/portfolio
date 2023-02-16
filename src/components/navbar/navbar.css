@@ -1,10 +1,11 @@
 nav {
 	display: flex;
+	padding-top: 1rem;
 	width: 100%;
 	justify-content: space-around;
 	align-items: center;
 	height: 2rem;
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 .navbar_container_menu {
@@ -35,52 +36,50 @@ nav {
 	flex-direction: column;
 	align-items: start;
 	gap: 2px;
-	width: 20px;
+	width: 1.5rem;
 	height: auto;
 	cursor: pointer;
-}
-li {
-	font-family: var(--tipo-principal);
-	font-weight: 400;
-}
-
-li:hover {
-	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
-	font-family: var(--tipo-principal);
-	background-size: 400% 400%;
-	animation: gradient 1s alternate-reverse infinite;
-	font-weight: 900;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 .navbar_menu_hamburger_1 {
 	width: 100%;
-	height: 2px;
-	background-color: var(--colorFontWhite);
+	height: 4px;
 	border-radius: 25px;
 	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
 	background-size: 400% 400%;
-	animation: gradient 4s ease infinite;
+	animation: gradient 6s ease infinite;
+	animation-delay: 600ms;
 	-webkit-text-fill-color: transparent;
 }
 
 .navbar_menu_hamburger_2 {
 	width: 85%;
-	height: 2px;
+	height: 4px;
 	border-radius: 25px;
 	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
 	background-size: 400% 400%;
-	animation: gradient 3s ease infinite;
+	animation: gradient 6s ease infinite;
+	animation-delay: 400ms;
 	-webkit-text-fill-color: transparent;
 }
 .navbar_menu_hamburger_3 {
-	width: 60%;
-	height: 2px;
+	width: 70%;
+	height: 4px;
 	border-radius: 25px;
 	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
 	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
+	animation: gradient 6s ease infinite;
+	animation-delay: 200ms;
+	-webkit-text-fill-color: transparent;
+}
+
+.navbar_menu_hamburger_4 {
+	width: 65%;
+	height: 4px;
+	border-radius: 25px;
+	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
+	background-size: 400% 400%;
+	animation: gradient 6s ease infinite;
 	-webkit-text-fill-color: transparent;
 }
 
@@ -101,11 +100,28 @@ li:hover {
 	flex-direction: row;
 	font-family: var(--tipo-secundaria);
 	list-style: none;
-	gap: 1rem;
+	gap: 2rem;
 	justify-content: center;
 	align-items: center;
 	margin: 0;
 	padding: 0;
+}
+
+li {
+	font-family: var(--tipo-principal);
+	font-weight: 400;
+}
+
+li:hover {
+	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
+	font-family: var(--tipo-principal);
+	background-size: 400% 400%;
+	animation: gradient 1s alternate-reverse infinite;
+	font-weight: 900;
+	scale: 1.2;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .navbar_container_button {
@@ -119,8 +135,9 @@ li:hover {
 	height: 1.5em;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 786px) {
 	nav {
+		padding-top: 0.5em;
 		display: inline;
 	}
 	.navbar_menu_button {
@@ -148,18 +165,34 @@ li:hover {
 	}
 	.navbar_container_button {
 		position: absolute;
-		top: 0;
+		top: 20%;
 		left: 17%;
 		gap: 2em;
 	}
 
 	.navbar_icon_github {
+		width: 1.5em;
+		height: 1.5em;
+	}
+	.logo_dark_mode {
+		width: 1.5em;
+		height: 1.5em;
+	}
+}
+
+@media screen and (max-width: 486px) {
+	.navbar_icon_github {
 		width: 1.3em;
 		height: 1.3em;
 	}
 	.logo_dark_mode {
-		margin-top: 2px;
 		width: 1.3em;
 		height: 1.3em;
+	}
+}
+
+@media screen and (max-width: 336px) {
+	main {
+		width: 90%;
 	}
 }

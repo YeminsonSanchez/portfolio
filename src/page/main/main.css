@@ -4,8 +4,8 @@ main {
 
 main {
 	display: flex;
-	width: 80%;
 	height: 100vh;
+	width: 90%;
 	flex-direction: column;
 	font-family: var(--tipo-principal);
 	font-weight: 400;
@@ -16,11 +16,11 @@ main {
 
 .main_span {
 	color: #0ea5e9;
-	font-size: 0.7em;
+	font-size: 1.6em;
 }
 .main_h1 {
 	font-weight: 900;
-	font-size: 4em;
+	font-size: 8.2em;
 	height: auto;
 	line-height: 1em;
 }
@@ -37,34 +37,132 @@ main {
 .main_ubication {
 	display: flex;
 	padding: 1em;
+
 	gap: 0.5em;
 	justify-content: center;
 	align-items: center;
 }
 .main_ubication_menu {
 	color: #f63b3b;
+font-size: 1.5em;
+}
+
+.main_ubication p {
+	font-size: 1.5em;
 }
 .main_description {
-	font-size: 0.8em;
+	display: flex;
+	font-size: 1.6em;
 	width: 90%;
-  font-style: italic;
+	font-style: italic;
 }
 .main_buttons {
 	display: flex;
 	flex-direction: row;
+	height: auto;
+	width: 100%;
 	gap: 2rem;
-	padding-top: 2rem;
-	padding-left: 2rem;
+	padding-top: 4rem;
+	padding-left: 4rem;
+	font-size: 1.5em;
 }
 .main_button_job {
 	background-color: #06b6d4;
-	padding: 0.3rem 0.8rem;
+	padding: 0.8rem 4rem;
 	border-radius: 25px;
 	cursor: pointer;
 }
 .main_button_cv {
 	border: solid 1px #06b6d4;
-	padding: 0.3rem 3rem;
+	padding: 0.8rem 6rem;
 	border-radius: 25px;
 	cursor: pointer;
 }
+@media screen and (max-width: 1024px) {
+	.main_h1 {
+		font-size: 4.4em;
+	}
+	.main_buttons {
+		padding-left: 0;
+	}
+	.main_description {
+		font-size: 0.8em;
+	}
+	.main_buttons {
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	width: 100%;
+	gap: 2rem;
+	padding-top: 3rem;
+	padding-left: 3rem;
+	font-size: 1.2em;
+}
+.main_button_job {
+	background-color: #06b6d4;
+	padding: 0.8rem 4rem;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.main_button_cv {
+	border: solid 1px #06b6d4;
+	padding: 0.8rem 4.5rem;
+	border-radius: 25px;
+	cursor: pointer;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+	.main_h1 {
+		font-size: 5.5em;
+	}
+
+	.main_buttons {
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 486px) {
+	.main_h1 {
+		font-size: 3em;
+	}
+	.main_buttons {
+		padding-left: 0;
+	}
+}
+
+
+
+@media screen and (max-width: 786px) {
+	.main_h1 {
+		font-size: 3em;
+	}
+	.main_buttons {
+		padding-left: 0;
+	}
+
+		.main_buttons {
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	width: 100%;
+	gap: 2rem;
+	padding-top: 2rem;
+	padding-left: 0rem;
+	font-size: 1em;
+}
+.main_button_job {
+	background-color: #06b6d4;
+	padding: 0.8rem 2rem;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.main_button_cv {
+	border: solid 1px #06b6d4;
+	padding: 0.8rem 3.5rem;
+	border-radius: 25px;
+	cursor: pointer;
+}
+}
+
+/* Path: src/page/main/main.js */

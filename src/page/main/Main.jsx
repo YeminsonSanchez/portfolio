@@ -9,15 +9,18 @@ export const Main = () => {
 			</h1>
 			<div className='main_ubication'>
 				<FaMapMarkerAlt className='main_ubication_menu' />
-				Chile
+				<p>Chile</p>
 			</div>
 			<p className='main_description'>
-				Me caracterizo por ser una persona que trabaja en equipo priorizando la
-				comunicación y empatía. Me enfoco en la legibilidad de código como
-				máxima del trabajo colaborativo, realizó testing, además de mejorar
-				constantemente a partir del feedback. Manejo patrones de diseño como lo
-				son: MVC y SINGLETON.
+				Soy comunicativo, empático, colaborativo y confiable.
 			</p>
+			<p className='main_description'>
+				Tengo habilidades para resolver conflictos y liderazgo efectivo.
+			</p>
+			<p className='main_description'>
+				Soy adaptable y tengo una fuerte ética de trabajo.
+			</p>
+
 			<div className='main_buttons'>
 				<button className='main_button_job'>Trabajemos</button>
 				<button className='main_button_cv'>CV</button>

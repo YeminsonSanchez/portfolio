@@ -12,6 +12,7 @@ export const Navbar = () => {
 					<div className='navbar_menu_hamburger_1'></div>
 					<div className='navbar_menu_hamburger_2'></div>
 					<div className='navbar_menu_hamburger_3'></div>
+					<div className='navbar_menu_hamburger_4'></div>
 				</button>
 				<div className='navbar_logo'>YeiikS</div>
 			</div>
