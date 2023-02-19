@@ -7,7 +7,7 @@
 }
 .aboutMe_title {
 	margin: 2rem 0;
-	font-size: 2rem;
+	font-size: 6rem;
 	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
 	font-family: var(--tipo-principal);
 	background-size: 300% 400%;
@@ -23,7 +23,6 @@
 	gap: 2rem;
 }
 
-
 .container_description {
 	display: flex;
 	flex-direction: column;
@@ -37,6 +36,7 @@
 	background-size: 300% 400%;
 	animation: gradient 10s ease infinite;
 	font-weight: 900;
+	font-style: italic;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -44,6 +44,38 @@
 .aboutMe_svg {
 	width: 100%;
 	overflow: hidden;
+}
+#visual_2 {
+	animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: rotate(0deg) scale(0.8);
+	}
+	50% {
+		transform: rotate(180deg) scale(1.2);
+	}
+	100% {
+		transform: rotate(360deg) scale(0.8);
+	}
+}
+
+#visual {
+	animation: pulse_reverse 10s infinite;
+	animation-delay: 2s;
+}
+
+@keyframes pulse_reverse {
+	0% {
+		transform: rotate(0deg) scale(0.7);
+	}
+	50% {
+		transform: rotate(-90deg) scale(1.2);
+	}
+	100% {
+		transform: rotate(-360deg) scale(0.7);
+	}
 }
 
 @media screen and (max-width: 768px) {

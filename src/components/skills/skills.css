@@ -1,0 +1,102 @@
+#Skills {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5rem 0;
+}
+
+.skills_title {
+	padding: 5rem 0;
+	margin: 2rem 0;
+	font-size: 6rem;
+	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
+	font-family: var(--tipo-principal);
+	background-size: 300% 400%;
+	animation: gradient 10s ease infinite;
+	font-weight: 900;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.title_container {
+	font-size: 2rem;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
+	font-family: var(--tipo-principal);
+	background-size: 300% 400%;
+	animation: gradient 10s ease infinite;
+	font-weight: 900;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.container_main_skills {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+	gap: 2rem;
+	grid-template-rows: 1fr 1fr;
+	justify-items: center;
+}
+
+.card_container_languaje,
+.card_container_frontend,
+.card_container_backend,
+.card_container_devops,
+.card_container_database,
+.card_container_cloud,
+.card_container_test,
+.card_container_design {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 27rem;
+	width: 20rem;
+	gap: 1rem;
+	background-color: #ffffff22;
+	box-shadow: 4px 2px 3px 1px #3bf69c;
+	border-radius: 20px;
+}
+
+.card_container_languaje:hover,
+.card_container_frontend:hover,
+.card_container_backend:hover,
+.card_container_devops:hover,
+.card_container_database:hover,
+.card_container_cloud:hover,
+.card_container_test:hover,
+.card_container_design:hover {
+	animation: box_shadow 3s infinite;
+}
+
+
+
+@keyframes box_shadow {
+	0% {
+		box-shadow: 4px 2px 3px 1px #3bf69c;
+		scale: 1;
+	}
+	50% {
+		box-shadow: 4px 2px 3px 1px #0e8de9;
+		scale: 1.1;
+	}
+	100% {
+		box-shadow: 4px 2px 3px 1px #3bf69c;
+		scale: 1;
+	}
+}
+
+.card_container_languaje h3,
+.card_container_frontend h3,
+.card_container_backend h3,
+.card_container_devops h3,
+.card_container_database h3,
+.card_container_cloud h3,
+.card_container_test h3,
+.card_container_design h3 {
+	font-size: 2.5rem;
+	font-weight: 100;
+	font-style: italic;
+}

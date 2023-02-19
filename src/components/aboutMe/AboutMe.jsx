@@ -22,11 +22,25 @@ export const AboutMe = () => {
 						tengo experiencia en el uso de bases de datos relacionales y no
 						relacionales para almacenar y gestionar datos.
 					</p>
+					<div className='aboutMe_svg'>
+						<svg
+							viewBox='0 0 200 200'
+							xmlns='http://www.w3.org/2000/svg'
+							id='visual'
+							width='900'
+							height='675'>
+							<path
+								fill='#06b6d5'
+								d='M46.4,-56.5C60.9,-53.4,73.8,-40.8,77.9,-25.9C81.9,-11,77.1,6.3,66,15.5C54.9,24.8,37.4,26.2,25.4,27.1C13.3,28,6.7,28.5,-4.7,34.9C-16,41.3,-32,53.6,-47.8,54C-63.6,54.3,-79.3,42.6,-87.2,26.4C-95,10.3,-95,-10.3,-82.5,-20C-70,-29.7,-44.9,-28.5,-29.1,-31.2C-13.2,-33.8,-6.6,-40.3,4.7,-46.7C16,-53.2,32,-59.6,46.4,-56.5Z'
+								transform='translate(100 100)'
+							/>
+						</svg>
+					</div>
 				</div>
 				<div className='container_description'>
 					<div className='aboutMe_svg'>
 						<svg
-							id='visual'
+							id='visual_2'
 							viewBox='0 0 900 675'
 							width='900'
 							height='675'
@@ -52,7 +66,7 @@ export const AboutMe = () => {
 						muy bueno trabajando en equipo y tengo una comunicación efectiva, lo
 						que me ha ayudado a colaborar efectivamente con mis compañeros de
 						trabajo en proyectos anteriores. {''}
-						<span>¡Espero tener la oportunidad de trabajar contigo!</span>
+						<span>¡Espero tener la oportunidad de trabajar contigo! </span> {' '}
 					</p>
 				</div>
 			</div>
