@@ -3,8 +3,26 @@ import './proyectos.css'
 export const Proyectos = () => {
 	return (
 		<section id='Projects'>
+			<h2 className='projects_title'>Proyectos</h2>
 			<div className='container_main_projects'>
 				<div className='container_projects'>
+					<div className='card_project'>
+						<div className='card_project__img'>
+							<img src='' alt='1' />
+
+							<div className='card_project__img__overlay'>
+								<div className='card_project__img__overlay__content'>
+									<h3>Proyecto 1</h3>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quisquam, quod.
+									</p>
+
+									<a href='#'>Ver más</a>
+								</div>
+							</div>
+						</div>
+					</div>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						xmlnsXlink='http://www.w3.org/1999/xlink'
