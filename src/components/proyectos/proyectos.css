@@ -15,6 +15,7 @@
 	animation: gradient 10s ease infinite;
 	font-weight: 900;
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 .container_projects {
