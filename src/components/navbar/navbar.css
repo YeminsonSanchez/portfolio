@@ -16,9 +16,17 @@ nav {
 
 .navbar_container_logo {
 	display: flex;
+	flex-direction: row-reverse;
 	justify-content: center;
-	flex-direction: column;
 	align-items: center;
+	gap: 2rem;
+}
+.logo_item {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
 }
 
 .navbar_logo {
@@ -27,6 +35,7 @@ nav {
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	font-weight: 900;
+	font-size: 2.5rem;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -128,11 +137,11 @@ li:hover {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	gap: 10px;
+	gap: 1rem;
 }
 .navbar_icon_github {
-	width: 1.5em;
-	height: 1.5em;
+	width: 1.8em;
+	height: 1.8em;
 }
 
 @media screen and (max-width: 786px) {
@@ -140,6 +149,11 @@ li:hover {
 		padding-top: 0.5em;
 		display: inline;
 	}
+	.logo_item {
+		flex-direction: row;
+		gap:1rem;
+	}
+
 	.navbar_menu_button {
 		display: flex;
 	}
@@ -162,12 +176,6 @@ li:hover {
 	}
 	.navbar_menu_ul {
 		flex-direction: column;
-	}
-	.navbar_container_button {
-		position: absolute;
-		top: 20%;
-		left: 17%;
-		gap: 2em;
 	}
 
 	.navbar_icon_github {

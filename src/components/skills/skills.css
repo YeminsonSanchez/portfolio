@@ -21,16 +21,11 @@
 }
 
 .title_container {
-	font-size: 2rem;
+	color: #0e8de9;
 	width: 100%;
 	text-align: center;
-	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
 	font-family: var(--tipo-principal);
-	background-size: 300% 400%;
-	animation: gradient 10s ease infinite;
 	font-weight: 900;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 .container_main_skills {
@@ -52,11 +47,11 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	height: 27rem;
+	height: 30rem;
 	width: 20rem;
 	gap: 1rem;
 	background-color: #ffffff22;
-	box-shadow: 4px 2px 3px 1px #3bf69c;
+	box-shadow: 10px 1px 10px 1px #67666622;
 	border-radius: 20px;
 }
 
@@ -68,25 +63,10 @@
 .card_container_cloud:hover,
 .card_container_test:hover,
 .card_container_design:hover {
-	animation: box_shadow 3s infinite;
+
 }
 
 
-
-@keyframes box_shadow {
-	0% {
-		box-shadow: 4px 2px 3px 1px #3bf69c;
-		scale: 1;
-	}
-	50% {
-		box-shadow: 4px 2px 3px 1px #0e8de9;
-		scale: 1.1;
-	}
-	100% {
-		box-shadow: 4px 2px 3px 1px #3bf69c;
-		scale: 1;
-	}
-}
 
 .card_container_languaje h3,
 .card_container_frontend h3,
@@ -96,7 +76,8 @@
 .card_container_cloud h3,
 .card_container_test h3,
 .card_container_design h3 {
-	font-size: 2.5rem;
+	padding: 1rem 0;
+	font-size: 3rem;
 	font-weight: 100;
 	font-style: italic;
 }

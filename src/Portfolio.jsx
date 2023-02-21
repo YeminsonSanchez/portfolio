@@ -1,8 +1,7 @@
 import { AboutMe } from './components/aboutMe/AboutMe'
 import { Navbar } from './components/navbar/Navbar'
-import { Proyectos } from './components/proyectos/Proyectos'
+import { Projects } from './components/projects/Projects'
 import { Skills } from './components/skills/Skills'
-import { WaveSvg } from './components/waveSvg/WaveSvg'
 import { Main } from './page/main/Main'
 
 const Portfolio = () => {
@@ -10,10 +9,9 @@ const Portfolio = () => {
 		<>
 			<Navbar />
 			<Main />
-			<WaveSvg />
 			<AboutMe />
-			<Skills/>
-			<Proyectos/>
+			<Skills />
+			<Projects />
 		</>
 	)
 }

@@ -14,7 +14,17 @@ export const Navbar = () => {
 					<div className='navbar_menu_hamburger_3'></div>
 					<div className='navbar_menu_hamburger_4'></div>
 				</button>
-				<div className='navbar_logo'>YeiikS</div>
+
+				<div className='logo_item'>
+					<DarkMode />
+					<a
+						href='https://github.com/YeminsonSanchez'
+						target='_blank'
+						rel='noopener noreferrer'>
+						<AiFillGithub className='navbar_icon_github' />
+					</a>
+					<div className='navbar_logo'>YeiikS</div>
+				</div>
 			</div>
 
 			<div className={`navbar_container_menu ${menu ? 'isActive' : ''}`}>
@@ -32,19 +42,6 @@ export const Navbar = () => {
 						<a href='#Proyectos'>Proyectos</a>
 					</li>
 				</ul>
-			</div>
-			<div className='navbar_container_button'>
-				<div>
-					<DarkMode />
-				</div>
-				<div>
-					<a
-						href='https://github.com/YeminsonSanchez'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<AiFillGithub className='navbar_icon_github' />
-					</a>
-				</div>
 			</div>
 		</nav>
 	)

@@ -4,7 +4,7 @@ main {
 
 main {
 	display: flex;
-	height: 85vh;
+	height: 100vh;
 	width: 90%;
 	flex-direction: column;
 	font-family: var(--tipo-principal);
@@ -44,7 +44,7 @@ main {
 }
 .main_ubication_menu {
 	color: #f63b3b;
-font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 .main_ubication p {
@@ -89,32 +89,52 @@ font-size: 1.5em;
 		font-size: 0.8em;
 	}
 	.main_buttons {
-	display: flex;
-	flex-direction: row;
-	height: auto;
-	width: 100%;
-	gap: 2rem;
-	padding-top: 3rem;
-	padding-left: 3rem;
-	font-size: 1.2em;
-}
-.main_button_job {
-	background-color: #06b6d4;
-	padding: 0.8rem 4rem;
-	border-radius: 25px;
-	cursor: pointer;
-}
-.main_button_cv {
-	border: solid 1px #06b6d4;
-	padding: 0.8rem 4.5rem;
-	border-radius: 25px;
-	cursor: pointer;
-}
+		display: flex;
+		flex-direction: row;
+		height: auto;
+		width: 100%;
+		gap: 2rem;
+		padding-top: 3rem;
+		padding-left: 3rem;
+		font-size: 1.2em;
+	}
+	.main_button_job {
+		background-color: #06b6d4;
+		padding: 0.8rem 4rem;
+		border-radius: 25px;
+		cursor: pointer;
+	}
+	.main_button_cv {
+		border: solid 1px #06b6d4;
+		padding: 0.8rem 4.5rem;
+		border-radius: 25px;
+		cursor: pointer;
+	}
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1500px) {
+@media screen and (min-width: 1024px) and (max-width: 1248px) {
 	.main_h1 {
-		font-size: 5.5em;
+		font-size: 5em;
+	}
+
+	.main_buttons {
+		padding-left: 0;
+	}
+}
+
+@media screen and (min-width: 1248px) and (max-width: 1600px) {
+	.main_h1 {
+		font-size: 5em;
+	}
+
+	.main_buttons {
+		padding-left: 0;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.main_h1 {
+		font-size: 6em;
 	}
 
 	.main_buttons {
@@ -131,8 +151,6 @@ font-size: 1.5em;
 	}
 }
 
-
-
 @media screen and (max-width: 786px) {
 	.main_h1 {
 		font-size: 3em;
@@ -141,28 +159,28 @@ font-size: 1.5em;
 		padding-left: 0;
 	}
 
-		.main_buttons {
-	display: flex;
-	flex-direction: row;
-	height: auto;
-	width: 100%;
-	gap: 2rem;
-	padding-top: 2rem;
-	padding-left: 0rem;
-	font-size: 1em;
-}
-.main_button_job {
-	background-color: #06b6d4;
-	padding: 0.8rem 2rem;
-	border-radius: 25px;
-	cursor: pointer;
-}
-.main_button_cv {
-	border: solid 1px #06b6d4;
-	padding: 0.8rem 3.5rem;
-	border-radius: 25px;
-	cursor: pointer;
-}
+	.main_buttons {
+		display: flex;
+		flex-direction: row;
+		height: auto;
+		width: 100%;
+		gap: 2rem;
+		padding-top: 2rem;
+		padding-left: 0rem;
+		font-size: 1em;
+	}
+	.main_button_job {
+		background-color: #06b6d4;
+		padding: 0.8rem 2rem;
+		border-radius: 25px;
+		cursor: pointer;
+	}
+	.main_button_cv {
+		border: solid 1px #06b6d4;
+		padding: 0.8rem 3.5rem;
+		border-radius: 25px;
+		cursor: pointer;
+	}
 }
 
 /* Path: src/page/main/main.js */

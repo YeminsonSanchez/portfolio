@@ -4,9 +4,10 @@ export const Main = () => {
 	return (
 		<main>
 			<span className='main_span'>Hola!</span>
-			<h1 className='main_h1'>
-				Soy <span>Yeminson Sanchez</span>, desarrollador Fullstack.
-			</h1>
+			<p className='main_h1'>
+				Soy <span>Yeminson Sanchez</span>,
+			</p>
+			<p className='main_h1'>desarrollador Fullstack.</p>
 			<div className='main_ubication'>
 				<FaMapMarkerAlt className='main_ubication_menu' />
 				<p>Chile</p>
