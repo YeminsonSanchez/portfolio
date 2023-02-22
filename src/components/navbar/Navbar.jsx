@@ -20,7 +20,7 @@ export const Navbar = () => {
 					<a
 						href='https://github.com/YeminsonSanchez'
 						target='_blank'
-						rel='noopener noreferrer'>
+						rel='noreferrer'>
 						<AiFillGithub className='navbar_icon_github' />
 					</a>
 					<div className='navbar_logo'>YeiikS</div>
@@ -30,7 +30,7 @@ export const Navbar = () => {
 			<div className={`navbar_container_menu ${menu ? 'isActive' : ''}`}>
 				<ul className='navbar_menu_ul '>
 					<li className='navbar_menu_li'>
-						<a href='SobreMi'>Sobre mí</a>
+						<a href='#SobreMi'>Sobre mí</a>
 					</li>
 					<li className='navbar_menu_li'>
 						<a href='#Skills'>Skills</a>

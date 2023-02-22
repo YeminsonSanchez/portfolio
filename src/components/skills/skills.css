@@ -30,7 +30,7 @@
 
 .container_main_skills {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 	gap: 2rem;
 	grid-template-rows: 1fr 1fr;
 	justify-items: center;
@@ -53,17 +53,6 @@
 	background-color: #ffffff22;
 	box-shadow: 10px 1px 10px 1px #67666622;
 	border-radius: 20px;
-}
-
-.card_container_languaje:hover,
-.card_container_frontend:hover,
-.card_container_backend:hover,
-.card_container_devops:hover,
-.card_container_database:hover,
-.card_container_cloud:hover,
-.card_container_test:hover,
-.card_container_design:hover {
-
 }
 
 
