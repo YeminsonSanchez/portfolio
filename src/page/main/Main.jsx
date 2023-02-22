@@ -23,7 +23,14 @@ export const Main = () => {
 			</p>
 
 			<div className='main_buttons'>
-				<button className='main_button_job'>Trabajemos</button>
+				<button className='main_button_job'>
+					<a
+						href='https://www.linkedin.com/in/yeminsonsanchez'
+						target='_blank'
+						rel='noreferrer'>
+						Trabajemos
+					</a>
+				</button>
 				<button className='main_button_cv'>CV</button>
 			</div>
 		</main>

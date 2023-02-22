@@ -30,16 +30,16 @@ export const Navbar = () => {
 			<div className={`navbar_container_menu ${menu ? 'isActive' : ''}`}>
 				<ul className='navbar_menu_ul '>
 					<li className='navbar_menu_li'>
-						<a href='#SobreMi'>Sobre mí</a>
+						<a href='#AboutMe'>Sobre mí</a>
 					</li>
 					<li className='navbar_menu_li'>
 						<a href='#Skills'>Skills</a>
 					</li>
 					<li className='navbar_menu_li'>
-						<a href='#Experiencia'>Experiencia</a>
+						<a href='#Experiencie'>Experiencia</a>
 					</li>
 					<li className='navbar_menu_li'>
-						<a href='#Proyectos'>Proyectos</a>
+						<a href='#Projects'>Proyectos</a>
 					</li>
 				</ul>
 			</div>

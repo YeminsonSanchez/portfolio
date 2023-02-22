@@ -1,11 +1,31 @@
 #Projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5rem 0;
+}
+
+.projects_title {
+	padding: 5rem 0;
+	margin: 2rem 0;
+	font-size: 6rem;
+	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
+	font-family: var(--tipo-principal);
+	background-size: 300% 400%;
+	animation: gradient 10s ease infinite;
+	font-weight: 900;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.main_container_project {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
 	align-items: center;
 	justify-content: center;
 	width: 90%;
 	margin: 0 auto;
-	padding: 4rem 0;
 	gap: 2rem;
 }
 
@@ -105,6 +125,7 @@
 .description_card_project {
 	position: absolute;
 	font-size: 1.3rem;
+	font-style: italic;
 	width: 90%;
 	height: 4rem;
 	left: 21px;
@@ -112,6 +133,7 @@
 	transform: translateY(-2px);
 	opacity: 0;
 }
+
 
 .svg_card_project.isActive ~ .description_card_project {
 	opacity: 1;

@@ -188,7 +188,7 @@ body {
 	display: block;
 	z-index: 1;
 	position: absolute;
-	
+
 	left: 0;
 	right: 0;
 	bottom: -100;
@@ -196,43 +196,5 @@ body {
 	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-		rotate: 180deg;
-
-	/* Estilo del degradado */
-
-	/* Estilo de la sombra */
+	rotate: 180deg;
 }
-
-
-/* Duración de la animación */
-
-/* Animación de la sombra */
-
-/* .descriptionName span {
-  background: linear-gradient(45deg, #00baf0, #1002ca, #7b0ea7, #00baf0);
-  background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
-  font-style: normal;
-  font-weight: 800;
-  margin-bottom: 5px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
-/* @keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
-
-/* background: linear-gradient(90deg, #06B6D4 0%, #0E8DE9 50%, #3BF69C 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent; */
