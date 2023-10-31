@@ -2,9 +2,10 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 90%;
+	width: 70%;
 	margin: 0 auto;
 }
+
 .aboutMe_title {
 	margin: 2rem 0;
 	font-size: 6rem;
@@ -18,14 +19,15 @@
 }
 
 .container_main_description {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: flex;
 	gap: 2rem;
 }
 
 .container_description {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	place-items: center;
+	grid-template-columns: 1fr 1fr;
+	/* flex-direction: column; */
 	font-size: 2em;
 	height: auto;
 }
@@ -79,8 +81,21 @@
 }
 
 @media screen and (max-width: 768px) {
+	#AboutMe {
+		width: 100%;
+	}
+
 	.container_main_description {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.aboutMe_title {
+		font-size: 4rem;
+	}
+
+	.container_description {
+		grid-template-columns: 1fr;
+		font-size: 1.5rem;
 	}
 }

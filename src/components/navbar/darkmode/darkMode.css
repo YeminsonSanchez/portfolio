@@ -19,7 +19,7 @@
 
 .white {
 	color: var(--colorFontBlack);
-
+	background-size: 300% 800% !important;
 	background-color: #bdecff;
 	background-image: radial-gradient(
 			at 40% 20%,
@@ -33,7 +33,7 @@
 		radial-gradient(at 84% 84%, rgb(252 248 255) 0px, transparent 50%),
 		radial-gradient(at 0% 0%, hsl(241deg 100% 98%) 0px, transparent 50%);
 
-	animation: themeWhite 2s;
+	animation: themeWhite 1s;
 }
 
 .white nav {
@@ -46,7 +46,6 @@
 }
 
 .white .navbar_container_menu.isActive {
-	background-color: #bdecffac;
 	background-image: radial-gradient(
 			at 40% 20%,
 			hsl(252deg 100% 97%) 0px,
@@ -58,6 +57,7 @@
 		radial-gradient(at 0% 100%, hsl(47deg 100% 98%) 0px, transparent 50%),
 		radial-gradient(at 84% 84%, rgb(252 248 255) 0px, transparent 50%),
 		radial-gradient(at 0% 0%, hsl(241deg 100% 98%) 0px, transparent 50%);
+	background-size: 200% 800% !important;
 }
 
 .logo_dark_mode {

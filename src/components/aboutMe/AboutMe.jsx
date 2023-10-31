@@ -6,22 +6,19 @@ export const AboutMe = () => {
 
 			<div className='container_main_description'>
 				<div className='container_description'>
-					<p>
-						Soy desarrollador web con 2 años de experiencia. Durante mi carrera,
-						he trabajado en una amplia variedad de proyectos utilizando
-						tecnologías como {''}
-						<span>
-							Javascript, React, Node, Express, PostgresSQL, Docker, entre otras
-						</span>
-						, {''} para crear aplicaciones web atractivas y escalables. Uno de
-						mis proyectos más gratificantes fue cuando trabajé en una aplicación
-						de seguimiento de pedidos para una empresa de logística. Utilizando
-						React y Node, desarrollé una interfaz de usuario intuitiva y un
-						sistema de procesamiento de pedidos eficiente que ayudó a la empresa
-						a {''} <span>mejorar su rendimiento en un 20%</span>. {''} También
-						tengo experiencia en el uso de bases de datos relacionales y no
-						relacionales para almacenar y gestionar datos.
-					</p>
+					<div>
+						<article>
+							Soy desarrollador web con 5 años de experiencia en proyectos
+							variados, destacando la creación de una aplicación de seguimiento
+							de pedidos que mejoró el rendimiento de una empresa de logística
+							en un 20%. Mis habilidades incluyen{' '}
+							<span>
+								{' '}
+								Javascript, Python, React, React Native, Nest, SQL, Docker, AWS
+								entre otros.{' '}
+							</span>
+						</article>
+					</div>
 					<div className='aboutMe_svg'>
 						<svg
 							viewBox='0 0 200 200'
@@ -37,7 +34,7 @@ export const AboutMe = () => {
 						</svg>
 					</div>
 				</div>
-				<div className='container_description'>
+				{/* <div className='container_description'>
 					<div className='aboutMe_svg'>
 						<svg
 							id='visual_2'
@@ -68,7 +65,7 @@ export const AboutMe = () => {
 						trabajo en proyectos anteriores. {''}
 						<span>¡Espero tener la oportunidad de trabajar contigo! </span> {' '}
 					</p>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	)

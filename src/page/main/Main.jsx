@@ -1,5 +1,6 @@
 import { FaMapMarkerAlt } from 'react-icons/all'
 import './main.css'
+import { WaveMain } from '../../components/waveMain/WaveMain'
 export const Main = () => {
 	return (
 		<main>
@@ -7,7 +8,7 @@ export const Main = () => {
 			<p className='main_h1'>
 				Soy <span>Yeminson Sanchez</span>,
 			</p>
-			<p className='main_h1'>desarrollador Fullstack.</p>
+			<p className='main_h1'>desarrollador Fullstack.</p>{' '}
 			<div className='main_ubication'>
 				<FaMapMarkerAlt className='main_ubication_menu' />
 				<p>Chile</p>
@@ -21,7 +22,6 @@ export const Main = () => {
 			<p className='main_description'>
 				Soy adaptable y tengo una fuerte ética de trabajo.
 			</p>
-
 			<div className='main_buttons'>
 				<button className='main_button_job'>
 					<a
@@ -33,6 +33,7 @@ export const Main = () => {
 				</button>
 				<button className='main_button_cv'>CV</button>
 			</div>
+			<WaveMain />
 		</main>
 	)
 }
