@@ -115,4 +115,7 @@
 		grid-template-columns: 1fr;
 		font-size: 1.5rem;
 	}
+	.aboutMe_svg {
+		display: none;
+	}
 }

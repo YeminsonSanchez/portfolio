@@ -12,7 +12,7 @@ export const data = [
 	},
 	{
 		id: 2,
-		title: 'Mutual Gestion',
+		title: 'Mutual Gestión',
 		description:
 			'Sistema de control de asistencias y gestión de colaboradores de la salud con 3ro y 4to turno.',
 		image:
@@ -34,7 +34,7 @@ export const data = [
 	{
 		id: 4,
 		title: 'XinnerLink',
-		description: 'Plataforma de gestion de empleos y RRHH.',
+		description: 'Plataforma de gestión de empleos y RRHH.',
 		image:
 			'https://res.cloudinary.com/daxltixrz/image/upload/v1705246762/Captura_desde_2024-01-14_12-39-07_ka1ht1.png',
 		link: 'https://www.xinerlink.cl/',
@@ -78,5 +78,3 @@ export const data = [
 		github: '',
 	},
 ]
-
-
