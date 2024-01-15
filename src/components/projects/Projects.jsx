@@ -1,29 +1,24 @@
-// import { CardProject } from './CardProject'
+// import { data } from './../../data'
+// import { CardLong } from './cardLong/CardLong'
 import './projects.css'
-import data from './../../data/data'
-import { Card2 } from './Card2'
 
 export const Projects = () => {
 	return (
 		<section id='Projects'>
-			<h2 className='projects_title'>Proyectos.</h2>
+			{/* <h2 className='projects_title'>Proyectos.</h2> */}
 			<div className='main_container_project'>
-				{data.map(({ id, image, title, description }) => (
-					<Card2
+				<h6 className='projects_title'>En Construcción.</h6>
+
+				{/* {data.map(({ id, image, title, description, tags, link }) => (
+					<CardLong
 						key={id}
 						image={image}
 						title={title}
 						description={description}
+						tags={tags}
+						link={link}
 					/>
-					// <CardProject
-					// 	key={id}
-					// 	image={image}
-					// 	title={title}
-					// 	description={description}
-					// 	url_page={link}
-					// 	url_github={github}
-					// />
-				))}
+				))} */}
 			</div>
 		</section>
 	)

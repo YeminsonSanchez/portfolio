@@ -1,4 +1,4 @@
-#AboutMe {
+.container_section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -18,6 +18,18 @@
 	-webkit-text-fill-color: transparent;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .container_main_description {
 	display: flex;
 	gap: 2rem;
@@ -31,7 +43,10 @@
 	font-size: 2em;
 	height: auto;
 }
-
+.article {
+	position: sticky;
+	z-index: 2;
+}
 .container_description span {
 	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
 	font-family: var(--tipo-principal);
@@ -46,6 +61,8 @@
 .aboutMe_svg {
 	width: 100%;
 	overflow: hidden;
+	position: absolute;
+	left: 150px;
 }
 #visual_2 {
 	animation: pulse 10s infinite;
@@ -81,8 +98,8 @@
 }
 
 @media screen and (max-width: 768px) {
-	#AboutMe {
-		width: 100%;
+	.container_section {
+		width: 90%;
 	}
 
 	.container_main_description {

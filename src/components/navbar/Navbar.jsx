@@ -1,7 +1,7 @@
-import { DarkMode } from './darkmode/DarkMode'
-import { AiFillGithub } from 'react-icons/all'
-import './navbar.css'
 import { useState } from 'react'
+import { AiFillGithub } from 'react-icons/all'
+import { Theme } from '../theme/Theme'
+import './navbar.css'
 export const Navbar = () => {
 	const [menu, setMenu] = useState(false)
 	const toggleMenu = () => setMenu(!menu)
@@ -16,7 +16,7 @@ export const Navbar = () => {
 				</button>
 
 				<div className='logo_item'>
-					<DarkMode />
+					<Theme />
 					<a
 						href='https://github.com/YeminsonSanchez'
 						target='_blank'

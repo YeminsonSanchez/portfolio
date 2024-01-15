@@ -15,8 +15,8 @@
 	--colorFontWhite: #fafafa;
 
 	/* Tipografía */
-	--tipo-principal: 'Raleway';
-	--tipo-secundaria: 'Inter';
+	--tipo-principal: 'Roboto';
+	--tipo-secundaria: 'sand-serif';
 }
 
 /* Opcional */
@@ -169,7 +169,7 @@ body {
 	min-height: 100vh;
 	font-size: 100%;
 	font-family: var(--tipo-principal);
-	color: var(--negro);
+	color: var(--colorFontBlack);
 	/* opcional */
 	/* opcional */
 	-webkit-hyphens: auto;
@@ -198,3 +198,5 @@ body {
 	-webkit-text-fill-color: transparent;
 	rotate: 180deg;
 }
+
+

@@ -1,8 +1,5 @@
 main {
 	padding-top: 2rem;
-}
-
-main {
 	display: flex;
 	height: 100vh;
 	width: 70%;
@@ -25,15 +22,35 @@ main {
 	line-height: 1em;
 }
 
-.main_h1 span {
-	background: linear-gradient(90deg, #06b6d4 0%, #0e8de9 50%, #3bf69c 100%);
+.name {
+	background: linear-gradient(45deg, #06b6d4 0%, #3bf69c 60%, #0e8de9 100%);
 	font-family: var(--tipo-principal);
-	background-size: 300% 400%;
+	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	font-weight: 900;
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	/* 25% {
+		background-position: 50% 0%;
+	} */
+	50% {
+		background-position: 100% 50%;
+	}
+	/* 75% {
+		background-position: 50% 50%;
+	} */
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .main_ubication {
 	display: flex;
 	padding: 1em;
@@ -54,6 +71,7 @@ main {
 	display: flex;
 	font-size: 1.6em;
 	width: 90%;
+	font-weight: 300;
 	font-style: italic;
 }
 .main_buttons {
@@ -183,8 +201,16 @@ main {
 	}
 
 	main {
-		width: 98%;
+		width: 100%;
+		padding: 0 5%;
+		height: 90vh;
+		margin-bottom: 2rem;
+	}
+	.main_description {
+		font-size: 1rem;
 	}
 }
 
-/* Path: src/page/main/main.js */
+.dark_mode {
+	color: var(--colorFontWhite);
+}

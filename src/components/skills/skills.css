@@ -1,4 +1,4 @@
-#Skills {
+.container_section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -19,69 +19,94 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
-.title_container {
-	color: #0e8de9;
-	width: 100%;
-	text-align: center;
-	font-family: var(--tipo-principal);
-	font-weight: 900;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
-.container_main_skills {
+/* .container_main_skills {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
-	gap: 2rem;
+	grid-template-columns: repeat(4, minmax(17rem, 1fr));
+	gap: 1rem;
 	grid-template-rows: 1fr 1fr;
 	justify-items: center;
-}
-
-.card_container_languaje,
-.card_container_frontend,
-.card_container_backend,
-.card_container_devops,
-.card_container_database,
-.card_container_cloud,
-.card_container_test,
-.card_container_design {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	height: 30rem;
-	width: 20rem;
-	gap: 1rem;
-	background-color: #ffffff00;
-	box-shadow: 2px 1px 2px 1px #67666622;
-	border-radius: 20px;
-}
-
-.card_container_languaje h3,
-.card_container_frontend h3,
-.card_container_backend h3,
-.card_container_devops h3,
-.card_container_database h3,
-.card_container_cloud h3,
-.card_container_test h3,
-.card_container_design h3 {
-	padding: 1rem 0;
-	font-size: 3rem;
-	font-weight: 100;
-	font-style: italic;
-}
+} */
 
 @media screen and (max-width: 768px) {
 	#Skills {
 		width: 100%;
 		justify-content: center;
 	}
-	.container_main_skills {
+	/* .container_main_skills {
 		grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-	}
+	} */
 
 	.skills_title {
 		font-size: 4rem;
 		margin: 2rem 0;
 		padding: 0;
 		text-align: center;
+	}
+}
+
+.container_main_skills_desktop {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 18rem 1fr 1fr 18rem;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 1rem;
+	grid-template-areas:
+		'grid_1 grid_3 grid_3 grid_3'
+		'grid_1 grid_4 grid_5 grid_7'
+		'grid_1 grid_4  grid_5 grid_7'
+		'grid_2 grid_6 grid_6 grid_7';
+}
+.grid_1 {
+	grid-area: grid_1;
+}
+
+.grid_2 {
+	grid-area: grid_2;
+}
+
+.grid_3 {
+	grid-area: grid_3;
+}
+
+.grid_4 {
+	grid-area: grid_4;
+}
+
+.grid_5 {
+	grid-area: grid_5;
+}
+
+.grid_6 {
+	grid-area: grid_6;
+}
+
+.grid_7 {
+	grid-area: grid_7;
+}
+
+.container_main_skills_mobile {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.container_main_skills_desktop {
+		display: none;
+	}
+	.container_main_skills_mobile {
+		display: block;
+		width: 100%;
+		display: flex;
 	}
 }

@@ -19,15 +19,6 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-.main_container_project {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-	align-items: center;
-	justify-content: center;
-	width: 90%;
-	margin: 0 auto;
-	gap: 2rem;
-}
 
 .container_card_project {
 	max-width: 24rem;
@@ -197,6 +188,14 @@
 	cursor: pointer;
 }
 
+.main_container_project {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
 .button_card_project:hover {
 	background-color: #3bf69c;
 	color: #fff;
@@ -215,5 +214,10 @@
 
 	.main_container_project {
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 2rem;
 	}
 }
